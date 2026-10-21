@@ -74,7 +74,7 @@ The client:
 6. generates a symmetric Content Encryption Key (CEK), presumably AES, as per RFC 5652.
 8. encrypts the CSR using the CEK
 9. uses the CA's public encryption key to derive:
-    1. A shared secret
+    1. a shared secret
     2. a kemct capsule
 10. turns the shared secret into a Key Encryption Key (KEK)
 11. encrypts the CEK using the KEK
